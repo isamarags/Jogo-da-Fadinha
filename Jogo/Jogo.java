@@ -31,26 +31,35 @@ public class Jogo {
 			//Caso o usuário digite 1 a opção é dar Comida a Fadinha:
 			case 1: 
 				fadinha.aplicarAcao(new Comida());
-				
+			break;
 				//Caso o usuário digite 3 a opção é fazer a fadinha descansar:
 			case 2:
 				fadinha.aplicarAcao(new Descansar());
+			break;
 				
 				//Caso o usuário digite 2 a opção é fazer a fadinha Treinar magia:
 			case 3:
 				fadinha.aplicarAcao(new TreinarMagia());
+			break;
 				
 			//Caso o usuário digite 4 a opção é fazer a fadinha Brincar:
 			case 4:
 				fadinha.aplicarAcao(new Brincar());
+			break;
 				
 			//Caso o usuário digite 5 a opção é fazer a fadinha Voar:
 			case 5:
 				fadinha.aplicarAcao(new Voar());
+			break;
 				
 			//Caso o usuário digite 6 a opção é fazer a fadinha Estudar:
 			case 6:
 				fadinha.aplicarAcao(new Estudar());
+			break;
+					
+			default:
+				
+			break;
 				
 			}
 			
