@@ -21,6 +21,17 @@ public class Jogo {
 			System.out.println("4- Brincar: \n Energia-- \n Saúde++ \n Magia \n Felicidade+ \n \n");
 			System.out.println("5- Voar: \n Energia-- \n Saúde+ \n Magia+  \n Felicidade+ \n \n");
 			System.out.println("6- Estudar: \n Energia-- \n Saúde++ \n Magia+ \n Felicidade+ \n \n");
+			
+			/*
+			
+			System.out.println("1- Comer: \n Energia++ ; Força++ ; Saúde++ ; Magia-- ; Felicidade \n \n" );
+			System.out.println("2- Descansar: \n Energia+ ; Força-- ; Saúde++ ; Magia ; Felicidade+ \n \n");
+			System.out.println("3- Treinar magia: \n Energia-- ; Força+ ; Saúde ; Magia+++ ; Felicidade+ \n \n");
+			System.out.println("4- Brincar: \n Energia-- ; Saúde++ ; Magia ; Felicidade+ \n \n");
+			System.out.println("5- Voar: \n Energia-- ; Saúde+ ; Magia+  ; Felicidade+ \n \n");
+			System.out.println("6- Estudar: \n Energia-- ; Saúde++ ; Magia+ ; Felicidade+ \n \n");
+			
+			*/
 
 
 			opcao = teclado.nextInt();
